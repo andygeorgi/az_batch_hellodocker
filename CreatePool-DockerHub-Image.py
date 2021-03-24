@@ -8,8 +8,8 @@ import common.config
 
 # Create a Batch service client. We'll now be interacting with the Batch service
 credentials = ServicePrincipalCredentials(
-  client_id=common.config.CLIENT_ID,
-  secret=common.config.SECRET,
+  client_id=common.config.APP_ID,
+  secret=common.config.PASSWORD,
   tenant=common.config.TENANT_ID,
   resource=common.config.RESOURCE
 )

@@ -2,8 +2,8 @@
 TENANT_ID = ''
 RESOURCE = 'https://batch.core.windows.net/'
 BATCH_ACCOUNT_URL = ''
-CLIENT_ID = ''
-SECRET = ''
+APP_ID = ''
+PASSWORD = ''
 # Custom prefixes for jobs, pools and tasks
 JOB_PREFIX = 'container-test-job'
 POOL_PREFIX = 'container-test-pool'
